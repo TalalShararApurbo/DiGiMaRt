@@ -17,7 +17,7 @@ public class database {
 
         try {
 
-            Class.forName("com.mysql.jdbc.Drive");
+            Class.forName("com.mysql.jdbc.Driver");
 
             Connection connect = DriverManager.getConnection("jdbc:mysql://localhost/digimart", "root", "");
 

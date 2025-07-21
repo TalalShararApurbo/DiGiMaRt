@@ -23,8 +23,8 @@ public class DiGiMart extends Application {
         Scene scene = new Scene(root);
         
         stage.setTitle("DiGiMart Shopping Portal");
-        stage.setMinHeight(450);
-        stage.setMinWidth(650);
+        stage.setMinHeight(410);
+        stage.setMinWidth(610);
         
         stage.setScene(scene);
         stage.show();
